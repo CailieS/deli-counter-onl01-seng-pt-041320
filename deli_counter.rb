@@ -13,6 +13,6 @@ def line(katz_deli)
     line.push(new_person)
     puts "Welcome, #{new_person}! You're #{line.length} in line"
   end
-  take_a_number()
+  take_a_number(katz_deli, "Ada")
   
   
