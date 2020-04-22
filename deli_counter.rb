@@ -1,6 +1,7 @@
 def line(line)
   if line.length == 0
-  puts "The Line is currently empty."
+  puts "There are currently #{line} in line."
+  else "The Line is currently empty."
   end
 end
 
