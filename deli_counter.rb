@@ -1,4 +1,4 @@
-
+katz_deli =[]
 def line(katz_deli)
     if katz_deli.length == 0
       puts "The line is currently empty."
@@ -9,7 +9,7 @@ def line(katz_deli)
     end 
   end 
   
-  def take_a_number(line, new_person)
+  def take_a_number(line, Ada)
     line.push(new_person)
     puts "Welcome, #{new_person}! You're #{line.length} in line"
   end
