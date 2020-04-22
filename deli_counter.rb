@@ -1,4 +1,4 @@
-katz_deli =[]
+katz_deli =["Ada", "Grace", "Kent"]
 def line(katz_deli)
     if katz_deli.length == 0
       puts "The line is currently empty."
@@ -14,5 +14,6 @@ def line(katz_deli)
     puts "Welcome, #{new_person}! You're #{line.length} in line"
   end
   take_a_number(katz_deli, "Ada")
+  take_
   
   
