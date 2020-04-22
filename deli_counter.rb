@@ -1,4 +1,5 @@
-def line 
+def line(line)
+  if line
   puts "The Line is currently empty."
 end
 
