@@ -9,9 +9,10 @@ def line(katz_deli)
     end 
   end 
   
-  def take_a_number(line, Ada)
+  def take_a_number(line, new_person)
     line.push(new_person)
     puts "Welcome, #{new_person}! You're #{line.length} in line"
   end
+  take_a_number()
   
   
