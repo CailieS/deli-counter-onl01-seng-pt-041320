@@ -8,6 +8,6 @@ def line(line)
     end 
   end 
   
-  def take_a_number
+  def take_a_number(line, new_person)
     line.push(new_person)
-    puts "Welcome, "
+    puts "Welcome, #{new_person}! You're #{line} in line"
