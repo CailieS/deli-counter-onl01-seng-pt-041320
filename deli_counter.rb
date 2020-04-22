@@ -1,7 +1,9 @@
 def line(line)
   if line
   puts "The Line is currently empty."
+  end
 end
 
-def next_in_line
+def take_a_number
+  
 end
