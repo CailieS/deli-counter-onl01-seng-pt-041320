@@ -1,7 +1,6 @@
 def line(line)
   if line.length == 0
-  line.each_with_index {|name| puts "The line is currently #{i + 1}"}
-  puts "There are currently #{line} in line."
+  line.each_with_index {|name, i| puts "The line is currently #{i + 1}"}
   else "The Line is currently empty."
   end
 end
